@@ -1,0 +1,9 @@
+
+POST http://localhost:5000/api/search/searchFile
+Content-Type: application/json
+
+{
+    "Path": "/Users/surasak/Project/HelloWorld/src/SearchApi",
+    "Pattern": "*.json"
+}
+
