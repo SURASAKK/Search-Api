@@ -21,13 +21,13 @@ namespace SearchApi
         public static void Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
-            .WriteTo.Console()
+            .WriteTo.Console(theme: AnsiConsoleTheme.Code,outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}")
           .WriteTo.RollingFile("log-{Date}.txt")
             .CreateLogger();
     Log.Information("This will be written to the rolling file set");
             Log.Information("Hello, world!");
-
             CreateWebHostBuilder(args).Build().Run();
+        
 
            
             
@@ -37,7 +37,9 @@ namespace SearchApi
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+            .UseSerilog()
                 .UseStartup<Startup>();
+
     }
  
 }

@@ -1,0 +1,33 @@
+2018-07-03 09:31:59.855 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 09:31:59.972 +07:00 [Information] Hello, world!
+2018-07-03 09:41:23.939 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 09:41:24.050 +07:00 [Information] Hello, world!
+2018-07-03 10:01:03.268 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 10:01:03.379 +07:00 [Information] Hello, world!
+2018-07-03 11:38:00.343 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 11:38:00.459 +07:00 [Information] Hello, world!
+2018-07-03 11:55:57.545 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 11:55:57.650 +07:00 [Information] Hello, world!
+2018-07-03 12:03:22.922 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 12:03:23.030 +07:00 [Information] Hello, world!
+2018-07-03 16:20:40.134 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 16:20:40.248 +07:00 [Information] Hello, world!
+2018-07-03 16:51:11.623 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 16:51:11.748 +07:00 [Information] Hello, world!
+2018-07-03 16:54:09.585 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 16:54:09.701 +07:00 [Information] Hello, world!
+2018-07-03 16:57:30.944 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 16:57:31.048 +07:00 [Information] Hello, world!
+2018-07-03 16:58:08.278 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 16:58:08.375 +07:00 [Information] Hello, world!
+2018-07-03 17:01:36.492 +07:00 [Information] This will be written to the rolling file set
+2018-07-03 17:01:36.585 +07:00 [Information] Hello, world!
+2018-07-03 17:01:37.037 +07:00 [Information] User profile is available. Using '"/Users/surasak/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2018-07-03 17:02:08.247 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5000/api/search/searchFile application/json 90
+2018-07-03 17:02:08.443 +07:00 [Information] Route matched with "{action = \"SearchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.SearchFile (SearchApi)"
+2018-07-03 17:02:08.584 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.SearchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRequest"]) - Validation state: Valid
+2018-07-03 17:02:08.610 +07:00 [Information] Search file SearchRequest { Path: "/Users/surasak/Project/HelloWorld/src/SearchApi", Pattern: "*.json" }
+2018-07-03 17:02:08.624 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.SearchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.383ms.
+2018-07-03 17:02:08.633 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2018-07-03 17:02:08.654 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.SearchFile (SearchApi)" in 205.56ms
+2018-07-03 17:02:08.662 +07:00 [Information] Request finished in 419.566ms 200 application/json; charset=utf-8
